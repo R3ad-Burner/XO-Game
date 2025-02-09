@@ -1,0 +1,25 @@
+.case {
+  background-color: rgb(190, 190, 190);
+  width: 200px;
+  height: 200px;
+  transition: all 400ms;
+}
+
+.case:hover {
+  cursor: pointer;
+  box-shadow: gray 0 0 20px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  width: 40%;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
