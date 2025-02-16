@@ -3,6 +3,11 @@
   width: 200px;
   height: 200px;
   transition: all 400ms;
+  font-size: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .case:hover {
